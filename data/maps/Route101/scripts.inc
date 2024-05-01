@@ -607,12 +607,14 @@ Route101_EventScript_Newboy::
 # 305 "data/maps/Route101/scripts.pory"
 	lockall
 # 306 "data/maps/Route101/scripts.pory"
-	msgbox Route101_EventScript_Newboy_Text_0
+	faceplayer
 # 307 "data/maps/Route101/scripts.pory"
+	msgbox Route101_EventScript_Newboy_Text_0
+# 308 "data/maps/Route101/scripts.pory"
 	releaseall
 	return
 
 
 Route101_EventScript_Newboy_Text_0:
-# 306 "data/maps/Route101/scripts.pory"
+# 307 "data/maps/Route101/scripts.pory"
 	.string "You can jump down these ledges!$"
