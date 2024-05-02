@@ -4150,21 +4150,21 @@ static const struct TrainerMon sParty_Eddie[] = {
 
 static const struct TrainerMon sParty_Allen[] = {
     {
-    .lvl = 17,
+    .lvl = 9,
     .species = SPECIES_FARFETCHD,
     .moves = {MOVE_BRUTAL_SWING, MOVE_QUICK_ATTACK, MOVE_SUBSTITUTE, MOVE_SWORDS_DANCE},
     .heldItem = ITEM_STICK,
     .ability = ABILITY_DEFIANT,
     },
     {
-    .lvl = 19,
+    .lvl = 9,
     .species = SPECIES_WATTREL,
     .moves = {MOVE_THUNDER_SHOCK, MOVE_PECK, MOVE_STOCKPILE, MOVE_SWALLOW},
     .heldItem = ITEM_SALAC_BERRY,
     .ability = ABILITY_COMPETITIVE,
     },
     {
-    .lvl = 19,
+    .lvl = 9,
     .species = SPECIES_PIDGEY,
     .moves = {MOVE_GUST, MOVE_FEATHER_DANCE, MOVE_ROOST, MOVE_RAZOR_WIND},
     .heldItem = ITEM_LUM_BERRY,
@@ -7521,21 +7521,21 @@ static const struct TrainerMon sParty_MaxieMtChimney[] = {
 
 static const struct TrainerMon sParty_Tiana[] = {
     {
-    .lvl = 18,
+    .lvl = 9,
     .species = SPECIES_PAWMI,
     .moves = {MOVE_FAKE_OUT, MOVE_MACH_PUNCH, MOVE_DIG, MOVE_QUICK_ATTACK},
     .heldItem = ITEM_ORAN_BERRY,
     .ability = ABILITY_IRON_FIST,
     },
     {
-    .lvl = 18,
+    .lvl = 8,
     .species = SPECIES_TEDDIURSA,
     .moves = {MOVE_FURY_SWIPES, MOVE_POWER_UP_PUNCH, MOVE_PROTECT, MOVE_METRONOME},
     .heldItem = ITEM_LEFTOVERS,
     .ability = ABILITY_QUICK_FEET,
     },
     {
-    .lvl = 21,
+    .lvl = 13,
     .species = SPECIES_IGGLYBUFF,
     .moves = {MOVE_ATTRACT, MOVE_SWEET_KISS, MOVE_PRESENT, MOVE_PROTECT},
     .heldItem = ITEM_FOCUS_SASH,
@@ -7681,19 +7681,19 @@ static const struct TrainerMon sParty_Crissy[] = {
 
 static const struct TrainerMon sParty_Rick[] = {
     {
-    .lvl = 19,
+    .lvl = 9,
     .species = SPECIES_INKAY,
     .moves = {MOVE_DESTINY_BOND, MOVE_AERIAL_ACE, MOVE_ACUPRESSURE, MOVE_THIEF},
     .ability = ABILITY_CONTRARY,
     },
     {
-    .lvl = 18,
+    .lvl = 8,
     .species = SPECIES_HOUNDOUR,
     .moves = {MOVE_TRAILBLAZE, MOVE_FLAME_CHARGE, MOVE_TORMENT, MOVE_BITE},
     .ability = ABILITY_FLASH_FIRE,
     },
     {
-    .lvl = 18,
+    .lvl = 7,
     .species = SPECIES_MURKROW,
     .moves = {MOVE_PERISH_SONG, MOVE_TAILWIND, MOVE_SUCKER_PUNCH, MOVE_GUST},
     .ability = ABILITY_PRANKSTER,
