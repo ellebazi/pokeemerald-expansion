@@ -8,14 +8,9 @@ script LittlerootTown_BellsHouse_house_RARE_CANDY{
 	lockall
 	playfanfare
 	MUS_OBTAIN_ITEM
-	msgbox (LittlerootTown_BellsHouse_house_RARE_CANDY_Text_0)
-	giveitem ITEM_RARE_CANDY
+	giveitem ITEM_RARE_CANDY, 99
 	releaseall
 	return
 
 
-}
-
-text LittlerootTown_BellsHouse_house_RARE_CANDY_Text_0{
-    "Received Rare Candy!"
 }
