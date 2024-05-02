@@ -1,12 +1,14 @@
 raw`LittlerootTown_BellsHouse_MapScripts::
 	.byte 0
 
-`
 
+`
 script LittlerootTown_BellsHouse_house_RARE_CANDY{
     lockall
     playfanfare(MUS_OBTAIN_ITEM)
-    giveitem(ITEM_RARE_CANDY, 99)
+    giveitem(ITEM_RARE_CANDY)
+    msgbox("You recieved a rare candy!")
     releaseall
 	return
     }
+
