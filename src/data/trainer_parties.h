@@ -7521,12 +7521,25 @@ static const struct TrainerMon sParty_MaxieMtChimney[] = {
 
 static const struct TrainerMon sParty_Tiana[] = {
     {
-    .lvl = 4,
-    .species = SPECIES_ZIGZAGOON,
+    .lvl = 9,
+    .species = SPECIES_PAWMI,
+    .moves = {MOVE_FAKE_OUT, MOVE_MACH_PUNCH, MOVE_DIG, MOVE_QUICK_ATTACK},
+    .heldItem = ITEM_ORAN_BERRY,
+    .ability = ABILITY_IRON_FIST,
     },
     {
-    .lvl = 4,
-    .species = SPECIES_SHROOMISH,
+    .lvl = 8,
+    .species = SPECIES_TEDDIURSA,
+    .moves = {MOVE_FURY_SWIPES, MOVE_POWER_UP_PUNCH, MOVE_PROTECT, MOVE_METRONOME},
+    .heldItem = ITEM_LEFTOVERS,
+    .ability = ABILITY_QUICK_FEET,
+    },
+    {
+    .lvl = 13,
+    .species = SPECIES_IGGLYBUFF,
+    .moves = {MOVE_ATTRACT, MOVE_SWEET_KISS, MOVE_PRESENT, MOVE_PROTECT},
+    .heldItem = ITEM_FOCUS_SASH,
+    .ability = ABILITY_CUTE_CHARM,
     }
 };
 
