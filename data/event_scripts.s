@@ -1076,3 +1076,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/LittlerootTown_BellsHome/scripts.inc"
 
 	.include "data/maps/LittlerootTown_BellsHouse/scripts.inc"
+    .include "data/scripts/dexnav.inc"
+    
