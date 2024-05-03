@@ -12631,8 +12631,8 @@ const struct Item gItemsInfo[] =
         .price = 0,
         .description = COMPOUND_STRING(
             "Yummy yummy healing\n"
-            "healing syrup for all\n"
-            "your Pokemon!!"),   
+            "healing syrup for\n"
+            "all your Pokemon!!"),   
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .holdEffectParam = 6,
