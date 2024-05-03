@@ -46,6 +46,7 @@ u8 CanUseDigOrEscapeRopeOnCurMap(void);
 u8 CheckIfItemIsTMHMOrEvolutionStone(u16 itemId);
 void FieldUseFunc_VsSeeker(u8 taskId);
 void Task_ItemUse_CloseMessageBoxAndReturnToField_VsSeeker(u8 taskId);
+void ItemUseOutOfBattle_pokeVial(u8);
 void DisplayDadsAdviceCannotUseItemMessage(u8 taskId, bool8 isUsingRegisteredKeyItemOnField);
 
 enum {

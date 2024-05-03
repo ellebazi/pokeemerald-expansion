@@ -928,7 +928,8 @@ extern const u8 gText_John[];
 extern const u8 gText_Roy[];
 extern const u8 gText_Gabby[];
 extern const u8 gText_Anna[];
-
+extern const u8 gText_PokeVial_Success[];
+extern const u8 gText_PokeVial_Failure[];
 extern const u8 gText_DadsAdvice[];
 extern const u8 gText_CantDismountBike[];
 extern const u8 gText_ItemFinderNothing[];
