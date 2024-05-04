@@ -42,8 +42,8 @@
 #define TEMP_FLAGS_END   FLAG_TEMP_1F
 #define NUM_TEMP_FLAGS   (TEMP_FLAGS_END - TEMP_FLAGS_START + 1)
 
-#define ROXANNE_DUMMY_FLAG   0x20 // for the joke battle against elfman13, no first battle
-#define ROXANNE_DUMMY_FLAG_LOST_ONCE    0x21 // if youve battled him it sets this, to spawn roxanne proper
+#define FLAG_ROXANNE_DUMMY_FLAG   0x20 // for the joke battle against elfman13, no first battle
+#define FLAG_ROXANNE_DUMMY_FLAG_LOST_ONCE    0x21 // if youve battled him it sets this, to spawn roxanne proper
 #define FLAG_UNUSED_0x022    0x22 // Unused Flag
 #define FLAG_UNUSED_0x023    0x23 // Unused Flag
 #define FLAG_UNUSED_0x024    0x24 // Unused Flag
