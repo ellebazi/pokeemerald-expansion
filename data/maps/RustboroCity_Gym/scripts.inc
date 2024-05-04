@@ -566,23 +566,29 @@ RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons:
 	.string "POKéMON.$"
 
 RustboroCity_Gym_EventScript_Roxannetest::
-# 288 "data/maps/RustboroCity_Gym/scripts.pory"
-	trainerbattle_single TRAINER_ROXANNE_1, May_Intro, May_Outro
 # 289 "data/maps/RustboroCity_Gym/scripts.pory"
-	msgbox PostBattle_May, MSGBOX_AUTOCLOSE
+	setflag FLAG_ROXANNE_DUMMY_FLAG_LOST_ONCE
 # 290 "data/maps/RustboroCity_Gym/scripts.pory"
+	clearflag FLAG_ROXANNE_DUMMY_FLAG
+# 291 "data/maps/RustboroCity_Gym/scripts.pory"
+	setvar VAR_RUSTBORO_CITY_GYM_STATE, 1
+# 292 "data/maps/RustboroCity_Gym/scripts.pory"
+	trainerbattle_single TRAINER_ROXANNE_5, May_Intro, May_Outro
+# 293 "data/maps/RustboroCity_Gym/scripts.pory"
+	msgbox PostBattle_May, MSGBOX_AUTOCLOSE
+# 294 "data/maps/RustboroCity_Gym/scripts.pory"
 	waitmessage
 	end
 
 
 May_Intro::
-# 295 "data/maps/RustboroCity_Gym/scripts.pory"
+# 299 "data/maps/RustboroCity_Gym/scripts.pory"
 	.string "You'll never win.$"
 
 May_Outro::
-# 299 "data/maps/RustboroCity_Gym/scripts.pory"
+# 303 "data/maps/RustboroCity_Gym/scripts.pory"
 	.string "Doesn't count$"
 
 PostBattle_May::
-# 303 "data/maps/RustboroCity_Gym/scripts.pory"
+# 307 "data/maps/RustboroCity_Gym/scripts.pory"
 	.string "I'll win next time!$"

@@ -281,11 +281,15 @@ RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons:
 	.string "You only have one POKéMON with you?\p"
 	.string "Please return with at least one more\n"
 	.string "POKéMON.$"
+
 `
 
 script RustboroCity_Gym_EventScript_Roxannetest{
 
-    trainerbattle_single(TRAINER_ROXANNE_1, May_Intro, May_Outro)
+    setflag(FLAG_ROXANNE_DUMMY_FLAG_LOST_ONCE)
+    clearflag(FLAG_ROXANNE_DUMMY_FLAG)
+    setvar(VAR_RUSTBORO_CITY_GYM_STATE, 1)
+    trainerbattle_single(TRAINER_ROXANNE_5, May_Intro, May_Outro)
     msgbox(PostBattle_May, MSGBOX_AUTOCLOSE)
     waitmessage
     end
@@ -303,3 +307,4 @@ text May_Outro{
 text PostBattle_May{
         "I'll win next time!"
 }
+
